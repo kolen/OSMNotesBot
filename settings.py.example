@@ -1,0 +1,18 @@
+# bot user ID (first part of api key)
+bot_user_id = 118577643
+
+# API key
+apikey = ""
+
+# Webhook URL with {} substitution for secret
+webhook = "https://osm-notes-bot.appspot.com/incoming/{}/"
+
+# Secret part of /start and incoming URI
+secret = ""
+
+# OSM server host. Test on demo server api06.dev.openstreetmap.org
+osm_server = "api06.dev.openstreetmap.org"
+
+# OSM API prefixes
+osm_api_prefix = "http://{}/api/0.6".format(osm_server)
+osm_note_url = "http://{}/note/{{}}".format(osm_server)
